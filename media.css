@@ -1,0 +1,127 @@
+@media screen and (max-width:768px){
+    
+#info{
+    display: none;
+    
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #1D3557;
+}
+
+
+nav > a{
+    display: none;
+}
+
+
+ #hamburger{
+    display: flex;
+    color: white;
+ }
+
+ #banner{
+    background-position: center;
+ }
+
+
+ main{
+    text-align: center;
+    height: 850px;
+    flex-flow:row wrap;
+    padding: 20px;
+    
+
+ }
+
+main #saiba{
+    margin: 15px 0px 15px 0px;
+}
+
+ #lado{
+    flex:auto;
+    height: 135px; 
+    margin-bottom: 40px;
+}
+
+#ima{
+    display: flex;
+    flex-flow: column;
+    width: 97vw;
+    margin-top: 50px;
+    height: 1000px;
+}
+
+#cont1, #cont2, #cont3{
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 10px;
+}
+
+#cont1:hover, #cont2:hover, #cont3:hover{
+    transform:none;
+    
+}
+
+#shiba , #ondo , #beam{
+    display: flex;
+    align-self: center;
+    height: 150px;
+    
+}
+
+h3{
+    display: none;
+}
+
+#ima p{
+    width: 300px; 
+}
+
+#form{
+    display: flex;
+
+    width: 94.8vw;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.315);
+    overflow: hidden;
+    
+}
+
+#fundo{
+    width: 96vw;
+    padding: 10px;
+    overflow: hidden;
+    display: flex; 
+}
+
+input{
+    width: 200px;
+}
+
+#msg{
+    height: 150px;
+}
+
+
+iframe{
+    display: flex;
+    margin: auto;
+    padding: 15px;
+    background-color: white;
+}
+
+footer{
+    width: 96.7vw;
+}
+
+
+
+
+}

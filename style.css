@@ -1,0 +1,349 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header{
+    display: flex;
+    flex-flow: column;
+    background-color: #1D3557;
+
+}
+
+#info{
+    background-color: #1D3557;
+    width: 98vw;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.filho{
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 5px; 
+}
+
+.filho:hover{
+    background-color: #12448aa9;
+    border-radius: 5px;
+    transition: 0.5s;  
+}
+
+#logo{
+    background-image: url('https://cdn.textstudio.com/output/sample/normal/8/1/7/1/matheus-logo-860-1718.png');
+    display: flex;
+    height: 80px;
+    width: 120px;
+    margin-right: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+nav{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    
+}
+
+nav > a{
+    margin-left:8px;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    color:white;
+    background-color: #1D3557;
+   
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: #0c3063e8;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+#banner{
+    background-image: url('https://t3.ftcdn.net/jpg/05/87/82/86/360_F_587828634_84n44s5nkkHoYfa9H1IjkU5qHQFZMTgY.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    display: flex;
+    padding: 10px;
+    margin: 30px;
+    height: 500px;
+    background-color:#1D3557;
+    border-radius: 2px;
+    
+}
+
+article{
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+}
+
+article> h2{
+    margin-bottom: 20px;
+    color: whitesmoke;
+    
+}
+
+article>p{
+    max-width: 700px;
+    color: whitesmoke;
+    font-size: 1.2em;
+    text-align: justify;
+    font-weight: bold;
+    
+}
+
+article #saiba{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #1f71e47a;
+    color: whitesmoke;
+    font-weight: bold;
+    margin: auto;
+}
+
+#saiba:hover{
+    background-color: #12448aa9;
+    text-decoration: underline;
+}
+
+#lado{
+    background-image: url('https://b3410309.smushcdn.com/3410309/wp-content/uploads/2024/08/criptomoedas-no-brasil-820x475.png?lossy=2&strip=1&webp=1');
+    background-size: cover;
+    height: 400px;
+    width: 40vw;
+    margin: auto;
+    border: 1px solid #0c1829;
+    box-shadow: 1px 1px 2px #0c1829;
+}
+
+#ima{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    height: 500px;
+}
+
+#cont1:hover{
+    cursor: pointer;
+    transform:translateY(-18px);
+    background-image: linear-gradient(#0c1829,rgb(63, 76, 80));
+}
+
+#cont2:hover{
+    cursor: pointer;
+    transform:translateY(-18px);
+    background-image: linear-gradient(#0c1829,rgb(63, 76, 80));
+}
+
+#cont3:hover{
+    cursor: pointer;
+    transform:translateY(-18px);
+    background-image: linear-gradient(#0c1829,rgb(63, 76, 80));
+}
+
+
+
+ h3{
+    color: whitesmoke;
+}
+
+#cont1{
+    height: 450px;
+    border: 1px dashed black;
+    padding: 10px;
+    background-color: #0D1321;
+
+}
+
+#cont2{
+    height: 450px;
+    border: 1px dashed black;
+    padding: 10px;
+    background-color: #0D1321;
+
+
+
+}
+
+#cont3{
+    height: 450px;
+    border: 1px dashed black;
+    padding: 10px;
+    background-color: #0D1321;
+}
+
+#cont1 > p{
+    width: 300px;
+    text-align: center;
+    margin:auto;
+    background-color:#1D3557;
+    color: whitesmoke;
+    text-indent: 10px;
+    font-weight: bold;
+    padding: 10px;   
+}
+
+#cont2 > p{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color:#1D3557;
+    color: whitesmoke;
+    text-indent: 10px;
+    font-weight: bold;
+    padding: 5px;
+    word-spacing: normal;
+
+}
+
+#cont3 > p{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color:#1D3557;
+    color: whitesmoke;
+    text-indent: 10px;
+    font-weight: bold;
+
+}
+
+.interativa{
+    border: 1px solid black;
+    margin: 10px;
+    
+    
+}
+
+
+#shiba{
+    background-image: url('https://www.moneytimes.com.br/uploads/2023/05/image-64-1024x576.png');
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+
+#ondo{
+    background: url('https://pbs.twimg.com/profile_images/1614113185652670466/YeihoVJk_400x400.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+
+#beam{
+    background-image: url('https://www.moneytimes.com.br/uploads/2020/06/beam-blockchain1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+
+#fundo{
+    background-image: url('https://www.infoescola.com/wp-content/uploads/2019/01/criptomoedas-bitcoin-608089037.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#form{
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-top:10px;
+    background-color: rgba(0, 0, 0, 0.781);
+    color: whitesmoke;
+}
+
+.itens{
+    padding: 10px;
+}
+
+input{
+    height: 30px;
+}
+
+#msg{
+    display: flex;
+    width: 400px;
+    height: 200px;
+    
+}
+
+#numero{
+    display: flex;
+}
+
+#nome{
+    display: flex;
+}
+
+button{
+    padding:10px;
+    cursor: pointer;
+}
+
+
+
+iframe{
+    display: block;
+    width: 95vw;
+    margin: auto;
+    margin-bottom: 0;
+    background-color: #1D3557;
+}
+
+footer{
+    margin-top: 0px;
+    text-align: center;
+    background-color: #1D3557;
+    padding: 10px;
+}
+
+footer > a{
+    color: black ;
+    padding: 2px;
+    margin: 0px;
+}
+
+footer > a:hover{
+    background-color: #1D3557 ;
+    text-decoration: none;
+    color: white;
+}
+
+#hamburger{
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+    
+    display: none;
+    
+}
+
