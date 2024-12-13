@@ -31,7 +31,7 @@ nav > a{
 
  main{
     text-align: center;
-    height: 850px;
+    height: 960px;
     flex-flow:row wrap;
     padding: 20px;
     
@@ -44,7 +44,7 @@ main #saiba{
 
  #lado{
     flex:auto;
-    height: 135px; 
+    height: 130px; 
     margin-bottom: 40px;
 }
 
